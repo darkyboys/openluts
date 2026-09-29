@@ -14,7 +14,7 @@ Brightness=0
 Contrast=0
 Saturation=0
 Black=0
-HighlightCompr=258
+HighlightCompr=0
 HighlightComprThreshold=0
 ShadowCompr=50
 HistogramMatching=false
@@ -22,8 +22,8 @@ CurveFromHistogramMatching=false
 ClampOOG=true
 CurveMode=Standard
 CurveMode2=Standard
-Curve=4;0;0;1;1;
-Curve2=0;
+Curve=0;
+Curve2=1;0;0;0.63957597173144942;0.31095406360424005;1;1;
 
 [HLRecovery]
 Enabled=false
@@ -166,7 +166,7 @@ Uniformity=5
 Enabled=true
 Setting=Camera
 Temperature=6501
-Green=0.99999062833533436
+Green=1
 Equal=1
 TemperatureBias=0
 StandardObserver=TWO_DEGREES
@@ -312,9 +312,9 @@ colorspace=dcip3
 rolloff=true
 
 [ToneEqualizer]
-Enabled=true
-Band0=21
-Band1=50
+Enabled=false
+Band0=0
+Band1=0
 Band2=0
 Band3=0
 Band4=0
@@ -385,7 +385,7 @@ Method=simple
 Horizontal=0
 Vertical=0
 CameraCropFactor=0
-CameraFocalLength=25
+CameraFocalLength=0
 CameraPitch=0
 CameraRoll=0
 CameraShiftHorizontal=0
@@ -430,7 +430,7 @@ CenterY=0
 
 [Resize]
 Enabled=false
-Scale=0.46999999999999997
+Scale=0.88
 AppliesTo=Cropped area
 Method=Lanczos
 DataSpecified=3
@@ -857,7 +857,7 @@ Dehablackx=false
 
 [MetaData]
 Mode=1
-ExifKeys=Exif.Image.Artist;Exif.Image.Copyright;Exif.Image.ImageDescription;Exif.Image.Make;Exif.Image.Model;Exif.Image.XResolution;Exif.Image.YResolution;Exif.Photo.DateTimeOriginal;Exif.Photo.ExposureBiasValue;Exif.Photo.ExposureTime;Exif.Photo.FNumber;Exif.Photo.Flash;Exif.Photo.FocalLength;Exif.Photo.ISOSpeedRatings;Exif.Photo.LensModel;Exif.Photo.OffsetTimeOriginal;Exif.Photo.UserComment;
+ExifKeys=*;
 
 [Film Negative]
 Enabled=false
